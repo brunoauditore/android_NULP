@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    tools:context=".Activity2">
+
+    <TextView
+        android:id="@+id/Balans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Баланс"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Balans"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="50dp"
+        android:text="Країна"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <CheckBox
+        android:id="@+id/country_0"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/country"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:text="Росія"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/country_1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/country_0"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Україна"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/country_2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/country_1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Казахстан"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/country_3"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="250dp"
+        android:layout_below="@id/country_1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Польща"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/country_4"
+        android:layout_below="@id/country"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="25dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Великобританія"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/country_5"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="250dp"
+        android:layout_below="@id/country_0"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="США "
+        android:textColor="@color/purple_200" />
+
+
+    <TextView
+        android:id="@+id/service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/country_2"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Сервіс"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/tg"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@id/service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telegram" />
+
+    <Button
+        android:id="@+id/go"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@id/tg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Google" />
+
+    <Button
+        android:id="@+id/vi"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@id/go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Viber" />
+    <Button
+        android:id="@+id/fb"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@id/service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facebook" />
+    <Button
+        android:id="@+id/tw"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@id/fb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Twitter" />
+    <Button
+        android:id="@+id/ig"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@id/tw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instagram" />
+
+
+
+</RelativeLayout>

@@ -1,38 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
     tools:context=".MainActivity">
 
+
     <TextView
-        android:layout_width="251dp"
-        android:layout_height="87dp"
-        android:text="Введіть ваш API Key з  https://sms-activate.ru"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.178" />
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Введіть ваш API Key з сайту sms-activate.ru"
+        android:textAlignment="center"
+        android:textColor="@color/purple_200"
+        android:textSize="34sp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="wrap_content"
+        android:id="@+id/key"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="100sp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="KEY"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="322dp" />
+        android:text=""
+        android:textColor="@color/white" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/Save"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Save"
-        tools:layout_editor_absoluteX="171dp"
-        tools:layout_editor_absoluteY="462dp" />
+        android:layout_below="@id/key"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="150dp"
+        android:text="Зберегти" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
