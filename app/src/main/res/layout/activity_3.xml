@@ -7,20 +7,11 @@
     android:background="@color/cardview_dark_background"
     tools:context=".Activity3">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
-        android:text="Назад" />
-
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:layout_below="@id/button"
         android:text="Мої активації"
         android:textAlignment="center"
         android:textColor="@color/purple_200"
@@ -63,4 +54,14 @@
         android:layout_marginTop="20dp"
         android:text="чекаю код.."
         android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/number"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="50dp"
+        android:text="Отримати код" />
 </RelativeLayout>

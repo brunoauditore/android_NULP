@@ -6,8 +6,6 @@
     android:layout_height="match_parent"
     android:background="@color/cardview_dark_background"
     tools:context=".MainActivity">
-
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
